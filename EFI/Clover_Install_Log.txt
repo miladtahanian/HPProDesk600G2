@@ -1,0 +1,39 @@
+
+Clover EFI installer log - Tue Feb 26 00:33:23 AEDT 2019
+Installer version: v2.4k r4862 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.3 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         500.1 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +500.1 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD            414.5 GB   disk1s1
+   2:                APFS Volume Preboot                 20.3 MB    disk1s2
+   3:                APFS Volume Recovery                519.0 MB   disk1s3
+   4:                APFS Volume VM                      14.0 GB    disk1s4
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *16.0 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Install macOS Mojave    15.7 GB    disk2s2
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/Install macOS Mojave/EFIROOTDIR/boot  to /Volumes/Install macOS Mojave/EFI-Backups/r4674/2019-02-26-00h33/boot
+Backing up /Volumes/Install macOS Mojave/EFIROOTDIR/EFI folder to /Volumes/Install macOS Mojave/EFI-Backups/r4674/2019-02-26-00h33/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Mojave
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Mojave
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
